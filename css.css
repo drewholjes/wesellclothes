@@ -1,0 +1,118 @@
+body{
+  margin: 2px;
+  font-family: BlinkMacSystemFont;
+}
+
+h1{
+  margin-left: 5px;
+}
+h4{
+  margin-top: 675px;
+  font-size: 7pt;
+  color: gray;
+  margin-left: 675px;
+  font-weight: lighter;
+}
+.logo{
+  height: 40px;
+  float: left;
+}
+
+.menuBardiv{
+  width: 200px;
+  height: 100vh;
+  float: left;
+}
+
+.menuBar {
+  list-style: none;
+  font-size: 8pt;
+  margin: 0;
+  height: 100%;
+  /*border: #cdcdd7 solid 1pt;*/
+  /*border-radius: 10px;*/
+  padding-left: 0;
+  padding-top: 40px;
+  /*padding-right: 10px;*/
+}
+#HOME{
+  margin: 35px 0 40px 15px;
+  height: 20px;
+}
+.menuBar li {
+  margin: 20px 0 0 40px;
+  padding: 5px;
+  height: 30px;
+  background-color: #f6f6f6;
+  border-bottom: #cdcdd7 solid 1pt;
+  -moz-animation: fadein 1s; /* Firefox */
+  -webkit-animation: fadein 1s; /* Safari and Chrome */
+  -o-animation: fadein 1s; /* Opera */
+}
+.menuBar li:hover{
+  background-color: #3f9bfe;
+}
+#ABOUT{
+  margin: 40px 0 20px 15px;
+  height: 20px;
+  font-size: 8pt;
+}
+
+.body1{
+  left: 215px;
+}
+.bodyM{
+  /*border: 1pt solid black;*/
+  position: absolute;
+  top: 75px;
+  padding: 20px;
+  width: 1100px;
+  height: 575px;
+  float: left;
+  /*background-color: #B9F6CA;*/
+}
+.bodyM img {
+  height: 225px;
+  float: left;
+  margin: 20px;
+  -moz-animation: fadein 2s; /* Firefox */
+  -webkit-animation: fadein 2s; /* Safari and Chrome */
+  -o-animation: fadein 2s; /* Opera */
+}
+
+
+
+
+/*fade in simple css effects-------------------------------------------------*/
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
